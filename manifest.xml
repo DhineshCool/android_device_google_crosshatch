@@ -125,9 +125,13 @@
     <hal format="hidl">
       <name>android.hardware.gnss</name>
       <transport>hwbinder</transport>
-        <fqname>@1.1::IGnss/default</fqname>
-        <fqname>@2.0::IGnss/default</fqname>
-        <fqname>@2.1::IGnss/default</fqname>
+      <version>1.1</version>
+      <version>2.0</version>
+      <version>2.1</version>
+      <interface>
+        <name>IGnss</name>
+        <instance>default</instance>
+      </interface>
     </hal>
     <hal format="hidl">
         <name>android.hardware.graphics.allocator</name>
