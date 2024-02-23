@@ -57,8 +57,7 @@ BOARD_BOOT_HEADER_VERSION := 2
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 
 # DTBO partition definitions
-BOARD_PREBUILT_DTBOIMAGE := device/google/crosshatch-kernel/dtbo.img
-BOARD_DTBOIMG_PARTITION_SIZE := 8388608
+BOARD_PREBUILT_DTBOIMAGE := device/google/crosshatch/recovery/kernel/dtbo.img
 
 TARGET_NO_KERNEL := false
 BOARD_USES_RECOVERY_AS_BOOT := true
